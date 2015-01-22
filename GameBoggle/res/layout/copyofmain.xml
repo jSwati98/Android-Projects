@@ -1,0 +1,9 @@
+<android.gesture.GestureOverlayView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/GestureOverlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:eventsInterceptionEnabled="true"
+>
+</android.gesture.GestureOverlayView>

@@ -1,0 +1,70 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+>
+
+        <TableLayout           
+                android:id="@+id/boggleGrid"
+                android:layout_width="wrap_content"
+                android:padding="20dp"
+                android:minHeight="25dp"
+                android:layout_height="wrap_content"
+        >
+
+
+        </TableLayout>
+        <LinearLayout
+                android:id="@+id/buttonsLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+        >
+                <Button
+                        android:text="@string/cancelButtonText"
+                        android:id="@+id/cancelButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                ></Button>
+                <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/submitButton"
+                        android:text="@string/submitButtonText"
+                ></Button>
+                <Button                   
+                        android:id="@+id/timerButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                ></Button>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/scoreLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+        >
+          <Button                   
+                        android:id="@+id/startGame"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/startButtonText"
+                ></Button>  
+        </LinearLayout>
+
+        <GridView
+                android:id="@+id/wordList"
+                android:layout_width="fill_parent"
+                android:layout_gravity="center"
+                android:layout_height="fill_parent"
+                android:background="#aaaaaa"
+                android:stretchMode="columnWidth"
+                android:numColumns="auto_fit" />
+
+
+
+</LinearLayout>
