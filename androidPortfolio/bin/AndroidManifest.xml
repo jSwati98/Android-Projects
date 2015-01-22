@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="swin.chat" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="8" />
+
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- required for accessing the device ID -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+    <!-- permission for C2DM  -->
+    <permission android:name="swin.chat.permission.C2D_MESSAGE"
+		android:protectionLevel="signature"></permission>
+		
+    <uses-permission android:name="swin.chat.permission.C2D_MESSAGE"></uses-permission>
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"></uses-permission>
+	<uses-permission android:name="android.permission.GET_TASKS"></uses-permission>
+	<permission android:protectionLevel="normal" android:name="swin.chat.permission.LOCAL_PERMISSION"></permission>
+	<uses-permission android:name="swin.chat.permission.LOCAL_PERMISSION"></uses-permission>
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name" android:name="SwinChatApplication">
+		<activity android:name=".MainActivity" android:label="@string/app_name">
+			
+		</activity>
+		<activity android:configChanges="orientation" android:name=".LoginActivity"></activity>
+		
+		<service android:name=".C2DMReceiver" />
+       <!-- In order to use the c2dm library, an
+               application must declare a class with the name C2DMReceiver, in its
+               own package, extending com.google.android.c2dm.C2DMBaseReceiver
+
+               It must also include this section in the manifest, replacing
+                "com.google.android.apps.chrometophone" with its package name.
+           -->
+	<!-- Only Google services can send messages to the app. If this permission 
+		weren't set any other app would be able to send messages to us. -->
+	<receiver android:name="com.google.android.c2dm.C2DMBroadcastReceiver"
+		android:permission="com.google.android.c2dm.permission.SEND">
+		<!-- Receive actual messages -->
+		<intent-filter>
+			<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+			<category android:name="swin.chat" />
+		</intent-filter>
+		<!-- Receive registration ids -->
+		<intent-filter>
+			<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+			<category android:name="swin.chat" />
+		</intent-filter>
+		<intent-filter>
+			<action android:name="com.google.android.c2dm.intent.RETRY" />
+			<category android:name="swin.chat" />
+		</intent-filter>
+	</receiver>
+	<activity android:name=".OtherUserActivity"></activity>
+	<activity android:name=".GreetActivity" android:screenOrientation="portrait">
+		<intent-filter>
+			<action android:name="android.intent.action.MAIN"></action>
+			<category android:name="android.intent.category.LAUNCHER"></category>
+		</intent-filter>
+	</activity>
+	<service android:name=".SwinChatService"></service>
+	<activity android:name=".ChatActivity"></activity>
+	<activity android:name=".SettingsActivity"></activity>
+	
+	</application>
+           
+</manifest>

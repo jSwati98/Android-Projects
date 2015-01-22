@@ -1,0 +1,23 @@
+<div style="overflow:scroll;">
+
+<center><H4>Steps to use Prescription guide:</H4></center>
+<p>   Prescription guide is the medical application for patients which brings you information about diseases based on the conditions and wellness questions asked in language user can understand.</p>
+<p>  1)	Say "Start" or Click on <b>Start Medical Test</b> button.<br>
+     2)	Application will ask you questions and you must use <b>Yes</b>, <b>No</b> or <b>Skip</b> while answering the questions. <br>
+     E.g. Do you have fever?<br>
+	 ANS: Yes<br>
+	 Do you have running nose?<br>
+	 ANS: Yes<br>
+	 Do you sneeze?<br>
+	 ANS: Yes<br>
+	 Test result: You might have cold.<br>  
+	
+     3)	Once your test is complete, application shows diagnosis from the test.<br> 
+	 4)	Say "Restart" or Click on <b>Retake Medical Test</b>, if you want to retake medical test.<br>
+	 5)	Say <b>Instruction</b> or Click on <b>Instruction</b> to read the instructions on summary page.<br>
+	 6)	On the summary page, after completion of test,  application shows diagnosis of your symptoms with the medication for the diagnosis.<br> 
+	 7)	User click on the medicine name to buy that medicine online.
+	 8)	If you want to consult your doctor, please say <b>Call</b> or click on <b>Call Doctor</b> and a call will be made to doctor.<br>
+	 9)	If you want to close the application, please say <b>Close</b> or click on upper right close icon. <br>
+</p>
+</div>

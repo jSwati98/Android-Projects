@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout	
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+			    
+<Button
+        android:id="@+id/list"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"        
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_1"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="List"
+        android:textColor="@android:color/white"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+<Button
+        android:id="@+id/Share"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"        
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_1"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Share"
+        android:textColor="@android:color/white"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+<Button
+        android:id="@+id/date2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"        
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_1"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Monday 10 December 2014"
+        android:textColor="@android:color/white"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+<Button
+        android:id="@+id/talk"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"        
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_1"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Talk to Expert"
+        android:textColor="@android:color/white"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+<Button
+        android:id="@+id/challenge"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"        
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_1"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Challenge me"
+        android:textColor="@android:color/white"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+<Button
+        android:id="@+id/chat"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"        
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_1"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Chat"
+        android:textColor="@android:color/white"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+</LinearLayout>
+</ScrollView>
+		
+	    

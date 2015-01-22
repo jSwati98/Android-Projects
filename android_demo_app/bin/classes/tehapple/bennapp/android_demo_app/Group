@@ -1,0 +1,63 @@
+public Group{
+
+  private Profile[] ProfileList = new Profile[100];
+  private Comment[] CommentList = new Comment[100];
+  private int id;
+  private String name;
+  private String location;
+  private Date date;
+  private int pcount;
+  private int ccount;
+
+  public Group(int id, String name){
+    this.id = id;
+    this.name = name;
+    this.date = new Date();
+    this.pcount = 0;
+    this.ccount = 0;
+  }
+
+  public Group(int id, String name, String location){
+    this.id = id;
+    this.name = name;
+    this.location = location;
+    this.date = new Date();
+    this.pcount = 0;
+    this.ccount = 0;
+  }
+
+  public void addProfile(Profile p){
+    if(!this.isFull()){
+      ProfileList[this.pcount++] = p;
+    }
+  }
+
+  public void addComment(Comment c){
+    CommentList[this.ccount++ % 100] = c;
+  }
+
+  public setLocation(String location){
+    this.location = location;
+  }
+
+  public int getID(){
+    return this.id;
+  }
+
+  public boolean isFull(){
+    return this.pcount == 100;
+  }
+
+  public int size(){
+    return this.pcount;
+  }
+
+  public String getLocation(){
+    return this.location;
+  }
+
+  public Profile LoopNext(){
+    static int i = 0;
+    return this.ProfileList[i++ % this.count];
+  }
+}

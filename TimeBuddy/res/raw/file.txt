@@ -1,0 +1,53 @@
+Its an emergency, Please consult with doctor.
+Do you have one of the following symptoms tendor abdomen, vomiting?
+We are not sure about these symptoms you are suffering from. Please See doctor.
+Is the pain severe?
+you might have food poisoning.
+Do you have diarrhea?
+You might be suffering from kidney infection.
+Is your temperature more than 100 degree Fahrenheit?
+you might have renal colic caused by kidney disorder.
+Did the pain start from back and moved to groin?
+you might be suffering from dysmenorrhea.
+Do you have pain during menstrual cycle?
+It might be an emergancy. Please see a gynecologist.
+Are you woman of child bearing age? 
+You might be suffering from intestine infection.
+Are you constipated? 
+We are not sure about these symptoms you are suffering from. Please See doctor.
+Do you have pain in lower abdomen? 
+You might be suffering from gall bladder infection. 
+Did the pain start in ribs?
+You might have nerve infection
+Do you have burning pain?
+You might be suffering from stomach infection
+Did the pain follow a bout of heavy drinking and eating? 
+We are not able to diagnose correctly. Please see doctors.
+Do you Have pain in abdomen.
+You might have urinary tract infection.
+Do you need to urinate frequently.
+Symptoms seems like Kidney stone but consult your doctor for detailed diagnosis.
+Do you have pain during urination? 
+Retake test.......
+Do you have fever?
+You might Have sinus
+do you have slight dizziness while shifting positions? 
+We are not sure about these symptoms you are suffering from. Please See doctor. 
+Do you have cough?
+you might have cold. 
+Do you sneeze? 
+We are not sure about these symptoms you are suffering from. Please See doctor.
+Do you have stuffy nose? 
+You might have migrane.
+Do you suffer from blurred vision,    depression and   hyperactivity. 
+You need to take rest. Please sleep. 
+Do you have headache
+You might have allergic rhinitis 
+Are you allergic to dust? 
+This should not be as serious issue. Try Vicks Vapour inhalation. If problem persists please consult a doctor.
+Do you have inflammation in nose? 
+You might have cold 
+Do you have runny nose? 
+This should not be as serious issue. Try Menthol cough drops and stay hydrated, use humidifier to feel better. If problem persists, see doctor.
+Do you have cough? 
+You might be suffering from normal headache. You need to take rest and sleep. If problem persists try taking painkiller or see doctor.

@@ -1,0 +1,23 @@
+public class Comment{
+  private String comment;
+  private int id;
+  private Date date;
+
+  public Comment(int id, String comment){
+    this.id = id;
+    this.comment = comment;
+    this.date = new Date();
+  }
+  
+  public String getComment(){
+    return this.comment;
+  }
+
+  public int getID(){
+    return this.id;
+  }
+
+  public Date getDate(){
+    return this.date;
+  }
+}

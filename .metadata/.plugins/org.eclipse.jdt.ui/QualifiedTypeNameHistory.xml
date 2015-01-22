@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="android.sax.StartElementListener"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.speech.SpeechRecognizer"/>
+<fullyQualifiedTypeName name="android.speech.RecognitionService.Callback"/>
+<fullyQualifiedTypeName name="android.speech.tts.TextToSpeech.OnInitListener"/>
+<fullyQualifiedTypeName name="android.speech.tts.TextToSpeech.OnUtteranceCompletedListener"/>
+<fullyQualifiedTypeName name="android.speech.tts.UtteranceProgressListener"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="android.app.PendingIntent"/>
+<fullyQualifiedTypeName name="android.widget.RemoteViews"/>
+<fullyQualifiedTypeName name="com.android.prescriptionGuide.BST.Node"/>
+<fullyQualifiedTypeName name="com.android.prescriptionGuide.Node"/>
+<fullyQualifiedTypeName name="android.net.Uri"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="com.authorwjf.talk2me.R.id"/>
+<fullyQualifiedTypeName name="com.authorwjf.talk2me.R.layout"/>
+<fullyQualifiedTypeName name="android.speech.RecognizerIntent"/>
+<fullyQualifiedTypeName name="android.app.Activity"/>
+<fullyQualifiedTypeName name="com.android.prescriptionGuide.TestActivity"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="android.os.Bundle"/>
+<fullyQualifiedTypeName name="com.android.prescriptionGuide.MainActivity"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="com.android.prescriptionGuide.BST"/>
+<fullyQualifiedTypeName name="android.text.Html"/>
+<fullyQualifiedTypeName name="com.authorwjf.talk2me.R.string"/>
+<fullyQualifiedTypeName name="com.authorwjf.talk2me.R"/>
+<fullyQualifiedTypeName name="android.text.method.ScrollingMovementMethod"/>
+<fullyQualifiedTypeName name="android.os.Handler"/>
+<fullyQualifiedTypeName name="android.speech.tts.TextToSpeech"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.android.timebuddy.R.layout"/>
+<fullyQualifiedTypeName name="com.android.timebuddy.SuggestActivity"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="android.widget.Spinner"/>
+</qualifiedTypeNameHistroy>

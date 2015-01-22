@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/banner_alt"
+        android:src="@drawable/banner_portrait" />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/main_search"
+      android:gravity="center"
+      android:textStyle="bold" />
+
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+
+      <Spinner
+        android:id="@+id/search_city_spinner"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:prompt="@string/search_city_prompt"
+        android:entries="@array/search_city_array" />
+
+      <Spinner
+        android:id="@+id/search_area_spinner"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:prompt="@string/search_area_prompt"
+        android:entries="@array/search_area_array" />
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+
+      <Spinner
+        android:id="@+id/search_rooms_spinner"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:prompt="@string/search_rooms_prompt"
+        android:entries="@array/search_rooms_array" />
+
+      <Spinner
+        android:id="@+id/search_min_spinner"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:prompt="@string/search_min_prompt"
+        android:entries="@array/search_min_array" />
+
+      <Spinner
+        android:id="@+id/search_max_spinner"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:prompt="@string/search_max_prompt"
+        android:entries="@array/search_max_array" />
+
+    </LinearLayout>
+
+    <Button
+      android:id="@+id/saearch_button"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/search_button"
+      android:onClick="searchButton" />
+
+</LinearLayout>

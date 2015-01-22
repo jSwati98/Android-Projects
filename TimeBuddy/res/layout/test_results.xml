@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".TestActivity" >
+
+    
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_1"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Help"
+        android:textColor="@android:color/white"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/helpButton"
+        android:layout_alignBottom="@+id/helpButton"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_1"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:textColor="@android:color/white"
+        android:text="Close"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/helpButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Prescription Guide"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/button_1"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Retake Medical Test"
+        android:textColor="@android:color/white"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+<TextView
+        android:id="@+id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_below="@id/text1"
+        android:layout_marginTop="120dp" />
+
+
+
+    <TextView
+        android:id="@+id/prescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@id/summary"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+	    android:layout_marginTop="150dp"
+        android:textSize="15dp"
+        android:autoLink="web" />
+
+   
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startButton"
+        android:layout_alignLeft="@+id/startButton"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/button_1"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Call Doctor"
+        android:textColor="@android:color/white"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+</RelativeLayout>

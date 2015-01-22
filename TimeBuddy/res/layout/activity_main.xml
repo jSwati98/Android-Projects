@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/timebuddy_main"
+    tools:context=".MainActivity">
+
+   <!--  <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Prescription Guide"
+        android:textSize="25dp" /> -->
+
+<!-- <ScrollView
+    android:id="@+id/instrScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="100dp"
+    android:paddingTop="50dp" >
+
+    <TextView
+        android:id="@+id/instr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        
+        android:paddingBottom="80dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp"
+        android:scrollY="100dp"
+        android:text=""/>
+   </ScrollView>
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/instrScroll"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_1"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Start Medical Test"
+        android:textColor="@android:color/white"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" /> -->
+
+</RelativeLayout>

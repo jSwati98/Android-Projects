@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;ReminderListActivity/src&apos;&#x0D;&#x0A;- Original project: &apos;TimeBuddy&apos;&#x0D;&#x0A;- Destination element: &apos;ReminderListActivity/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     TimeBuddy/src/com.googlecode.chartdroid.example.minimal&#x0D;&#x0A;     TimeBuddy/src/com.googlecode.chartdroid.core&#x0D;&#x0A;     TimeBuddy/src/com.googlecode.chartdroid.example.minimal.provider" description="Copy packages" destination="=ReminderListActivity/src" element1="/src&lt;com.googlecode.chartdroid.example.minimal" element2="/src&lt;com.googlecode.chartdroid.core" element3="/src&lt;com.googlecode.chartdroid.example.minimal.provider" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1420067035515" version="1.0"/>
+</session>

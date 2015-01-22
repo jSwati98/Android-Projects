@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:scrollbars="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content" 
+        android:orientation="vertical"
+    	android:padding="10dp">
+    	            
+	<EditText 
+	    android:id="@+id/messageText"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:minHeight="140dp"
+		android:hint="Enter your Message"
+		/>
+
+	<Button
+	    android:id="@+id/usButton" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Speak US Locale"/>
+	
+	<Button
+	    android:id="@+id/ukButton" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Speak UK Locale"/>
+	
+	<Button
+	    android:id="@+id/userButton" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Speak User's Locale"/>
+	 
+	</LinearLayout>
+</ScrollView>

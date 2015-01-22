@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Time Buddy</string>
+    <string name="hello_world"></string>
+    <string name="menu_settings">Menu</string>
+<string name="migrain_html">
+<![CDATA[
+<p></p>
+<p>Aspirin</p>
+<p>Naproxen (Naprosyn, Anaprox, Anaprox DS)</p>
+<p>Ibuprofen</p>
+<p>Acetaminophen (Tylenol)</p>
+]]>
+</string>
+
+<string name="sinus_html">
+<![CDATA[
+<p></p>
+<p>  Avelox oral</p>
+<p>azithromycin oral</p>	 	 	
+<p>Augmentin oral</p> 	
+<p>amoxicillin oral</p> 	 	
+<p>clarithromycin oral</p>
+<p>amoxicillin-potassium clavulanate oral</p>
+</a>
+]]>
+</string>
+
+<string name="kidney_html">
+<![CDATA[
+<p></p>
+<p>Avelox oral</p>
+<p>azithromycin oral</p>	 	 	
+<p>Augmentin oral</p> 	
+<p>amoxicillin oral</p> 	 	
+<p>clarithromycin oral</p>
+<p>amoxicillin-potassium clavulanate oral</p>
+]]>
+</string>
+<string name="instr_html">
+<![CDATA[
+<div style="overflow:scroll;">
+
+<p>   Prescription guide is the medical application for patients which brings you information about diseases based on the conditions and wellness questions asked in language user can understand.</p>
+<center><H4>Steps to use Prescription guide:</H4></center>
+<p>  1)	Say <b>Start</b> or Click on <b>Start Medical Test</b> button to start test.<br>
+     2)	Application will ask you questions and you must use <b>Yes</b>, <b>No</b> or <b>Skip</b> while answering the questions. <br>
+     E.g. Do you have fever?<br>
+	 ANS: Yes<br>
+	 Do you have running nose?<br>
+	 ANS: Yes<br>
+	 Do you sneeze?<br>
+	 ANS: Yes<br>
+	 Test result: You might have cold.<br>  
+	
+     3)	Once your test is complete, application shows diagnosis from the test.<br> 
+	 4)	Say <b>Restart</b> or Click on <b>Retake Medical Test</b>, if you want to retake medical test.<br>
+	 5)	Say <b>Instruction</b> or Click on <b>Instruction</b> to read the instructions on summary page.<br>
+	 6)	On the summary page, after completion of test,  application shows diagnosis of your symptoms with the medication for the diagnosis.<br> 
+	 7)	User can click on the medicine name to buy that medicine online.
+	 8)	If you want to consult your doctor, please say <b>Call</b> or click on <b>Call Doctor</b> and a call will be made to doctor.<br>
+	 9)	If you want to close the application, please say <b>Close</b> or click on upper right close icon. <br>
+</p>
+</div>
+]]>
+</string>
+<string name="intestine_html">
+<![CDATA[
+<p></p>
+<p>Avelox oral</p>
+<p>azithromycin oral</p>	 	 	
+<p>Augmentin oral</p> 	
+<p>amoxicillin oral</p> 	 	
+<p>clarithromycin oral</p>
+<p>amoxicillin-potassium clavulanate oral</p>
+]]>
+</string>
+<string name="renal_infection_html">
+<![CDATA[
+<p></p>
+<p>indomethacin 
+</p>
+<p>diclofenac potassium</p>	 	 	
+<p>Indocin</p> 	
+<p>ketorolac</p> 	 	
+<p>Zipsor</p>
+<p>Cataflam</p>
+]]>
+</string>
+
+<string name="allergic_rhinitis_html">
+<![CDATA[
+<p></p>
+<p>Ipratropium bromide</p>
+<p>Leukotriene</p>	 	 	
+<p>antihistamines</p> 	
+<p>decongestants</p> 	 	
+<p>corticosteroid</p>
+]]>
+</string>
+
+<string name="gall_bladder_infection_html">
+<![CDATA[
+<p></p>
+<p>ursodiol 
+</p>
+<p>URSO Forte</p>	 	 	
+<p>Actigall</p> 	
+<p>URSO 250</p> 	 	
+<p>chenodiol</p>
+<p>Chenodal</p>
+]]>
+</string>
+
+<string name="nerve_infection_html">
+<![CDATA[
+<p></p>
+<p>Kenalog-40 
+</p>
+<p>Aristocort</p>	 	 	
+<p>TAC 3</p> 	
+<p>Rebif Rebidose</p> 	 	
+<p>Triamonide</p>
+<p>Triamcot</p>
+]]>
+</string>
+
+<string name="stomach_infection_html">
+<![CDATA[
+<p></p>
+<p>Alka-Seltzer Plus Cold
+</p>
+<p>Aprodine</p>	 	 	
+<p>Banophen</p> 	
+<p>Benadryl</p> 	 	
+<p>Cheratussin DAC</p>
+<p>Chlor-Trimeton</p>
+]]>
+</string>
+
+<string name="urinary_track_infection_html">
+<![CDATA[
+<p></p>
+<p>Amoxil
+</p>
+<p>Ancef</p>	 	 	
+<p>Augmentin</p> 	
+<p>Bactrim</p>
+<p>Ceftin</p>
+]]>
+</string>
+<string name="cold_html">
+<![CDATA[
+<p></p>
+<p>Cipro oral</p>
+<p>azithromycin oral</p>	 	 	
+<p>ciprofloxacin oral</p> 	
+<p>Zithromax Z-Pak oral</p> 	 	
+<p>Zithromax oral</p>
+<p>erythromycin oral</p>
+]]>
+</string> 
+
+<string name="dysmenorrhea_html">
+<![CDATA[
+<p></p>
+<p>Advil</p>
+<p>Aleve</p>	 	 	
+<p>Anaprox</p> 	
+<p>Anaprox-DS</p> 	 	
+<p>Ansaid</p>
+<p>Aspercreme Cream</p>
+]]>
+</string> 
+
+<string name="food_poisoning_html">
+<![CDATA[
+<p></p>
+<p>Antivert</p>
+<p>Atarax</p>	 	 	
+<p>Ativan</p> 	
+<p>Benadryl</p> 	 	
+<p>Benadryl Allergy</p>
+<p>Compazine</p>
+]]>
+</string> 
+</resources>

@@ -1,0 +1,44 @@
+package com.android.timebuddy;
+
+import java.util.Calendar;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.Button;
+
+public class Main extends Activity {
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        
+//        One way to use the calendar widget is putting it in the xml file is shown in main.xml
+//        setContentView(R.layout.main);
+
+        /*
+         Other way is to add is using the java code as follows.
+		*/
+        MonthView mv = new MonthView(this);
+       
+        
+        Intent intent = getIntent();
+        
+        String val = intent.getStringExtra("from");
+        System.out.println("val--->"+val);
+        if(val.equalsIgnoreCase("manage")){
+        	//ViewGroup linearLayout = (ViewGroup) findViewById(R.id.linearLayoutID);
+        	Button bt = new Button(this);
+        	bt.setText("A Button");
+        	bt.setLayoutParams(new LayoutParams(LayoutParams.FILL_PARENT, 
+        	                                    LayoutParams.WRAP_CONTENT));
+        	mv.addView(bt);
+        }
+        
+        setContentView(mv);
+//        Calendar cal = Calendar.getInstance();
+//        cal.set(2012, Calendar.DECEMBER,12);
+//        mv.GoToDate(cal.getTime());
+    }
+}
